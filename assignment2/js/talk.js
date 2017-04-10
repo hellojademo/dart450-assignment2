@@ -17,7 +17,9 @@ $("#well").hide();
       // In annyang's commands writing a colon immediately
       // followed by a variable name means it will call
       // the function specified with that word in an argument
-      ':word': said
+      'tensei': tanisi,
+      // '*everything': function (words) { console.log(words); },
+
 
     };
 
@@ -37,23 +39,18 @@ $("#well").hide();
 //
 // Called when annyang detects the user said a word. The argument
 // will contain the word annyang heard.
-function said(word) {
+function tanisi () {
   // First make sure the "game" isn't already over
   if (gameOver) {
     return;
   }
 
-  // Check if they said the correct answer to our devious riddle...
-  if (word == 'chimigwetch') {
-    // If they said 'something', they got it right, make the
-    // page green.
     $('body').css({
       'background-color': 'green'
-
     });
 
     $("#well").fadeTo(2000,1)
-  }
+
   // else {
   //   // If they didn't say 'something', they got it wrong, make
   //   // the page red
@@ -63,7 +60,7 @@ function said(word) {
   // }
 
   // For good measure, add what they said to the page
-  $('#command').text('"' + word + '."');
+  $('#command').text('"Tanisi!"');
 
   gameOver = true;
 }
