@@ -1,22 +1,20 @@
+// $(document).ready(function(){
+//
+// $("#done").hide();
+//
+//
+// });
+
 $(document).ready(function(){
-
-$("#done").hide();
-
-
+  $("#listen").hide();
+  $('#submit').click(buttonClicked);
+  $("#done").hide();
+  $("#listen").fadeTo(2000,1);
 });
 
-function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-        alert("Try Again!");
-        return false;
-
-    }
-
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "cat") {
-        return true;
-        $("#done").fadeTo(2000,1);
-
-      }
+function buttonClicked () {
+  var answer = $('#input').val();
+  if (answer == 'cat') {
+    $('#done').fadeTo(2000,1);
+  }
 }

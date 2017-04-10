@@ -1,5 +1,7 @@
 var gameOver = false;
 
+var spokenVoice
+
 $(document).ready(function() {
 
 $("#well").hide();
@@ -32,7 +34,23 @@ $("#well").hide();
     annyang.start();
   }
 
+
+  spokenVoice = new Audio ('../sounds/coin.wav')
+
+
+  $("#listen").click(function(){
+
+    spokenVoice.play();
 });
+
+
+
+});
+
+
+
+
+
 
 
 // said (word)
@@ -48,8 +66,9 @@ function tanisi () {
     $('body').css({
       'background-color': 'green'
     });
+  $("#well").show();
 
-    $("#well").fadeTo(2000,1)
+
 
   // else {
   //   // If they didn't say 'something', they got it wrong, make
@@ -60,7 +79,7 @@ function tanisi () {
   // }
 
   // For good measure, add what they said to the page
-  $('#command').text('"Tanisi!"');
+  $('#command').text('"Hello to you too!"');
 
   gameOver = true;
 }
