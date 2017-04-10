@@ -1,0 +1,62 @@
+/*
+
+Title of project
+Author's name
+
+Some description of the CSS styling
+
+*/
+#bod{
+position:absolute;
+left:600px;
+bottom:10px;
+/*display: block;*/
+
+}
+
+
+/*--------DIV STUFFFFFFF------*/
+.talk{
+/*color:red;*/
+background-color: red;
+height:300px;
+width:300px;
+display:inline-block;
+margin-top: 20px;
+border-radius: 50%;
+
+}
+
+.type{
+  height:300px;
+  width:300px;
+  display:inline-block;
+  background-color: green;
+  border-radius: 50%;
+}
+
+
+.animal{
+  height:300px;
+  width:300px;
+  display:inline-block;
+background-color: blue;
+border-radius: 50%;
+
+}
+
+.status{
+  background-color: pink;
+  height:300px;
+  width:300px;
+  display:inline-block;
+  border-radius: 50%;
+}
+
+.lose{
+  background-color: black;
+  height:300px;
+  width:300px;
+  display:inline-block;
+  border-radius: 50%;
+}

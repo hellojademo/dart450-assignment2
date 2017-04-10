@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chathura|Grand+Hotel|Roboto');
+
+body{
+height:100%;
+background-color: #dab6fc;
+
+
+
+}
+
+button{
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+ padding: 16px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+ cursor: pointer;
+ 
+}
+
+button:hover{
+
+  background-color: red;
+   color: white;
+}
+#eighteen{
+
+cursor:pointer;
+
+}
+
+#twelve{
+cursor:pointer;
+
+
+}
+
+#seven{
+cursor: pointer;
+
+}
+.bod2{
+
+  background-color: #ddaaab;
+}
+
+.bod3{
+  background-color: #087f8c;
+
+}
+
+.bod4{
+  background-color: #dab6fc;
+
+
+}
+p{
+  font-family: 'Roboto';
+  font-size: 30px;
+  color:#fff;
+
+}
+div{
+
+
+width:50px;
+height:500px;
+display:inline-block;
+float:left;
+margin:20px;
+text-align: center;
+
+}
+
+#tellMe{
+  font-family: 'Chathura';
+  font-size: 50px;
+  color:#9fa0ff;
+
+
+}
+
+#juliet {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color:#ce909c;
+
+}
+
+#romeo {
+  font-family: 'Grand Hotel';
+  font-size: 40px;
+  color:#5aaa95;
+
+
+}
+
+section{
+background-color: green;
+width:800px;
+height:500px;
+
+
+}
+
+img {
+  width:400px;
+  padding:2px;
+  display:inline-block;
+  float:left;
+  height:400px;
+  margin:auto;
+
+}
+
+#num1{
+width:1000px;
+height:100%;
+
+
+
+}
+
+#num3 {
+
+  width:1000px;
+  height:100%;
+  float:right
+}
+
+
+#counter{
+display:none;
+
+}

@@ -1,0 +1,49 @@
+/*
+
+Ugly
+Pippin Barr
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+body {
+  font-family: Helvetica, sans-serif;
+
+  background:url(../images/sparkle.gif)
+}
+
+#poem {
+  font-size: 1em;
+  padding: 2em;
+  line-height: 1.5em;
+}
+
+#title {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+div{
+  width:500px;
+  height:300px;
+  display:inline-block;
+
+
+}
+
+p{
+color:#ff33cc;
+font-family: 'Barrio';
+font-size: 6em;
+
+
+}
+
+.line {
+
+}
+
+.image {
+  position: absolute;
+  z-index: -5;
+}

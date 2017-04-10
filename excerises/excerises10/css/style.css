@@ -1,0 +1,27 @@
+/*
+
+More Speech
+Pippin Barr
+
+*/
+div {
+  width:850px;
+  height:800px;
+  border-radius: 50%;
+  color:green;
+  margin:auto;
+
+
+
+
+}
+
+img {
+  width:400px;
+  padding:2px;
+  display:inline-block;
+  float:left;
+  height:400px;
+  margin:auto;
+  opacity:0;
+}

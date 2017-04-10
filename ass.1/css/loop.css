@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Chathura|Grand+Hotel|Roboto');
+
+
+div {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  float: left;
+}
+
+#mess{
+width:100%;
+text-align: center;
+font-family: 'Chathura';
+font-size: 100px;
+
+
+}

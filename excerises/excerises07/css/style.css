@@ -1,0 +1,31 @@
+/*
+
+ScrollMagic with TweenMax
+Pippin Barr
+
+Basic styling.
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Gidugu');
+body {
+
+  margin-bottom: 400px;
+  font-family: 'Gidugu';
+  font-size: 30px;
+}
+
+.block {
+  width: 100%;
+  opacity: 0;
+  margin:auto;
+  display:inline-block;
+}
+h1 {
+font-size: 50px;
+/*text-align: center;*/
+
+
+}
+.iphone {
+  width: 300px;
+}

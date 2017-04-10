@@ -1,0 +1,84 @@
+/*
+
+Title of project
+Author's name
+
+Some description of the CSS styling
+
+*/
+#bod{
+/*position:absolute;
+left:600px;
+bottom:10px;*/
+/*display: block;*/
+
+}
+
+#test1{
+width:50px;
+height:50px;
+margin:50px 50px 0 0;
+
+}
+
+div{
+display: inline-block;
+  /*box-sizing: border-box;*/
+}
+
+button{
+margin-top:150px;
+
+
+}
+/*--------DIV STUFFFFFFF------*/
+.talk{
+/*color:red;*/
+background-color: red;
+height:300px;
+width:300px;
+display:inline-block;
+margin-top: 20px;
+}
+
+.type{
+  height:300px;
+  width:300px;
+  display:inline-block;
+  background-color: green;
+
+}
+
+
+.animal{
+  height:300px;
+  width:300px;
+  display:inline-block;
+background-color: blue;
+
+}
+
+.status{
+  background-color: pink;
+  height:300px;
+  width:300px;
+  display:inline-block;
+
+}
+
+.lose{
+  background-color: black;
+  height:300px;
+  width:300px;
+  display:inline-block;
+
+}
+
+.typing{
+  background-color: white;
+  height:100px;
+  width:100px;
+  display:inline-block;
+
+
+}

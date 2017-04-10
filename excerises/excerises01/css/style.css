@@ -1,0 +1,41 @@
+/*
+
+DART450
+Week 01
+Colour Change CSS
+
+Just some very basic styling of the text
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body {
+	margin: 50px;
+	background: #000000;
+}
+
+#text {
+	font-family: 'Pacifico';
+	font-size: 8em;
+	font-weight: bold;
+	/*color: #81CCDF;*/
+	color: #ffffff;
+}
+
+#text1{
+
+	font-family: 'Dosis';
+	font-size: 7.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+
+
+}
+
+div{
+	margin:auto;
+
+
+}

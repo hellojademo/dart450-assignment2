@@ -1,0 +1,11 @@
+# Dart 450 // Assignment 1
+
+Approaching this project, it took me a while to figure out what I wanted to say about my online presence. In the past, focusing on my user experience on the blogging website Tumblr, i would tend to conform to the blog styles and types that were populr at the time. I transitioned from hipster blog, to fitness blog, to rave blog, to aesthetic, to now my mish mash of puppies and memes. Even though it is a mish mash, it is more reflective of my true personality than any of the other blogs I maintained.
+
+Throughout my studies at Concordia, I have taken various classes that touch on the subject of conformity especially in relation to social media. While there are multiple factors that affect this, such as the desire to fit in or gain notoriety, the outcome is still the same of curating oneself to fit into a certain "standard" if you will.
+
+Now when it comes to the completed assignment, while far simpler than what I had originally imagined, I feel reflects what I was trying to convey. In my mind, The grid of related images along with the differing linking image would represent a certain blog type and the differing picture would link to another. So once you click you conform to that image and that standard which causes the rest of the images to change. 
+
+I am quite proud of myself in this project to be totally honest. In past web projects I would find a codrop or codepen and simply copy and paste elements in and manipulate them. I wanted to challenge myself to finally take the time to think about what I wanted to happen on the page then write and add code I understood to bring those ideas to fruition. I ran into a couple problems but instead of starting over like I have in the past, I soon become quite close friends with the console in order to solve my issues.
+
+Overall, I am pleased with my project. In the future I would definately consider adding more and bulding on this concept. Though as I was working it was not turning out the way I have planned in my head, I followed through making sure it worked rather than panicking and throwing it away.

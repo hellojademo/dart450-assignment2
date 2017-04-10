@@ -1,0 +1,118 @@
+/*
+
+Play Array
+Pippin Barr
+
+Styling to make the divs in the game look fun!
+
+*/
+
+/* Disable selection because there will be lots of clicking and
+it will look bad */
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Fira+Sans:300');
+
+body {
+  user-select: none;
+  background-color:#FFDBB5;
+
+}
+
+/* Made the score huge and in the background because it looks
+kind of nice */
+#score {
+  font-family: sans-serif;
+  font-size: 30em;
+  font-weight: bolder;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+}
+
+div{
+  z-index: -5;
+
+
+}
+#romeo {
+  font-family: 'Coming Soon';
+  font-size:25px;
+  /*color: #96031A;*/
+  color:#419D78;
+  float: right;
+  margin-top: 5em;
+  padding: 2em;
+}
+
+#juliet {
+  font-family: 'Fira Sans';
+  font-size: 25px;
+  color: #C04ABC;
+  margin-left: auto;
+  margin-top: auto;
+  padding: 2em;
+}
+
+p{
+  font-family: 'Coming Soon';
+  font-size:25px;
+  color:#419D78;
+
+}
+
+/* The default setup of a div is just a red square */
+.basic {
+  background-color: rgba(255,0,0,1);
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  float: left;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+.zero{
+
+display:none;
+}
+
+.show{
+  display:block;
+  opacity: 1;
+}
+
+/* You can tell it's points because it's green! */
+.points {
+  background-color: rgba(0,255,0,1);
+}
+
+/* Here are a set of classes that animate the div in some way,
+like rotating it, fading it, or scaling its width. */
+.rotator {
+  animation-name: rotator;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+.scaler {
+  animation-name: scaler;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+.fader {
+  animation-name: fader;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotator {
+  100% { transform: rotateX(360deg); }
+}
+
+@keyframes scaler {
+  100% { width: 80px; }
+}
+
+@keyframes fader {
+  100% { opacity: 0; }
+}
