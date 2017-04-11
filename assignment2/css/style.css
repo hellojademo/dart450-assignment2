@@ -27,10 +27,11 @@ margin:50px 50px 0 0;
 div{
 
 margin: 0 auto;
-margin-top: 150px;
+margin-top: 250px;
      width: 100px;
 font-family: 'Source Sans Pro';
 text-align: center;
+font-size: 20px;
   /*box-sizing: border-box;*/
 }
 
@@ -39,7 +40,7 @@ margin-top:150px;
 background-color: #7b886b; /* Green */
  border: none;
  color: white;
- padding: 16px 32px;
+ padding: 8px 16px;
  font-family:'Roboto Slab';
  text-align: center;
  text-decoration: none;
@@ -72,59 +73,28 @@ background-color: #88bb92;
   margin: 0 auto;
       width: 100px;
 }*/
+#in{
 
+  color:#08B524;
 
+}
 
+#leg{
+
+  color:#A03D2A;
+}
+
+.fine{
+
+  font-size: 15px;
+}
 
 
 /*--------DIV STUFFFFFFF------*/
-/*.talk{*/
-/*color:red;*/
-/*background-color: red;
-height:300px;
-width:300px;
-display:inline-block;
-margin-top: 20px;
-}
+  .talk{
+  color: white;
 
-.type{
-  height:300px;
-  width:300px;
-  display:inline-block;
-  background-color: green;
+  height:400px;
+  width:500px;
 
-}
-
-
-.animal{
-  height:300px;
-  width:300px;
-  display:inline-block;
-background-color: blue;
-
-}
-
-.status{
-  background-color: pink;
-  height:300px;
-  width:300px;
-  display:inline-block;
-
-}
-
-.lose{
-  background-color: black;
-  height:300px;
-  width:300px;
-  display:inline-block;
-
-}
-
-.typing{
-  background-color: white;
-  height:100px;
-  width:100px;
-  display:inline-block;
-
-
-}*/
+  }
