@@ -22,13 +22,18 @@ $(document).ready(function() {
   $('#button').hide();
 
   $('input').click(inputSelected);
+  $("#icon2").hide();
 
 
   responsiveVoice.OnVoiceReady = speechIsReady;
 
+  $("#icon2").mouseenter(function (event) {
+  say("Oh No, What a shame, You lost your staus and now you can never get it back");
+});
+
     // We can have speech happen in reaction to different page
     // events like clicks and keypresses, to make things more dynamic...
-    $('#button').click(function (event) {
+    $('#button').mouseenter(function (event) {
       // say() is a function defined below
       say("Oh No, What a shame, You lost your staus and now you can never get it back");
     });
@@ -39,8 +44,9 @@ $(document).ready(function() {
 function inputSelected () {
   if ($(this).is(':checked')) {
     numSelected++;
-    if (numSelected == 3) {
+    if (numSelected == 1) {
       $('#button').show();
+        // say("Oh No, What a shame, You lost your staus and now you can never get it back");
     }
   }
   else {
