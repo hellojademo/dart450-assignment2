@@ -5,6 +5,7 @@ var spokenVoice
 $(document).ready(function() {
 
 $("#well").hide();
+$("#icon2").hide();
 
 
   if (annyang) {
@@ -43,7 +44,13 @@ $("#well").hide();
     spokenVoice.play();
 });
 
+$('body').click(function(){
+  $("#well").show();
+  $("#icon1").hide();
+  $("#listen").hide();
+  $("#icon2").fadeTo(1500,1);
 
+});
 
 });
 
@@ -67,7 +74,7 @@ function tanisi () {
       'background-color': 'green'
     });
   $("#well").show();
-
+  $("#icon2").fadeTo(1500,1);
 
 
   // else {
