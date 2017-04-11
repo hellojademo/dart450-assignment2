@@ -11,17 +11,35 @@ $(document).ready(function(){
   $("#done").hide();
   $("#listen").fadeTo(2000,1);
   $("#icon2").hide();
+
+
+
+  spokenVoice = new Audio ('../sounds/chi.wav')
+
+
+  $("#listen").click(function(){
+
+    spokenVoice.play();
+  });
+
+
+
+
 });
+
+
+
+
 
 function buttonClicked () {
   var answer = $('#input').val();
-  if (answer == 'cat') {
+  if (answer == 'chimegwetch') {
     $('#done').fadeTo(1000,1);
     $("#listen").hide();
     $("#submit").hide();
 
     $("#icon1").hide();
-  
+
     $("#icon2").fadeTo(1500,1);
 
   }

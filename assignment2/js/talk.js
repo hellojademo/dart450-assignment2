@@ -36,7 +36,7 @@ $("#icon2").hide();
   }
 
 
-  spokenVoice = new Audio ('../sounds/coin.wav')
+  spokenVoice = new Audio ('../sounds/tensei.wav')
 
 
   $("#listen").click(function(){
