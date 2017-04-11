@@ -10,7 +10,7 @@ var voice = 'UK English Male';
 
 // The parameters for the voice in an object
 var voiceParameters = {
-  pitch: 5,
+  pitch: 1,
   rate: 1,
   volume: 1
 }
@@ -33,9 +33,9 @@ $(document).ready(function() {
 
     // We can have speech happen in reaction to different page
     // events like clicks and keypresses, to make things more dynamic...
-    $('#button').mouseenter(function (event) {
+    $('#button').click(function (event) {
       // say() is a function defined below
-      say("Oh No, What a shame, You lost your staus and now you can never get it back");
+      say("Oh No, What a shame, You lost your status and now you can never get it back");
     });
 
 
@@ -46,6 +46,8 @@ function inputSelected () {
     numSelected++;
     if (numSelected == 1) {
       $('#button').show();
+      $("#icon1").hide();
+      $("#icon2").show();
         // say("Oh No, What a shame, You lost your staus and now you can never get it back");
     }
   }
