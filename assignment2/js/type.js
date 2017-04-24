@@ -11,6 +11,7 @@ $(document).ready(function(){
   $("#done").hide();
   $("#listen").fadeTo(2000,1);
   $("#icon2").hide();
+  $("#thank").fadeTo(3000,0);
 
 
 
@@ -29,11 +30,12 @@ $(document).ready(function(){
 
 
 
-
+//This ensures the user has to type in the right word in order to advance
+//The code checks to make sure they typed in the right input
 
 function buttonClicked () {
   var answer = $('#input').val();
-  if (answer == 'chimegwetch') {
+  if (answer == 'Chimegwetch') {
     $('#done').fadeTo(1000,1);
     $("#listen").hide();
     $("#submit").hide();

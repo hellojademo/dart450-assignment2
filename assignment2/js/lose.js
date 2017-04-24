@@ -14,7 +14,8 @@ var voiceParameters = {
   rate: 1,
   volume: 1
 }
-
+//Code here from Pippin's examples with some tweaking
+//No matter which check box the user picks, they "loose their status"
 
 
 $(document).ready(function() {
@@ -33,13 +34,15 @@ $(document).ready(function() {
 
     // We can have speech happen in reaction to different page
     // events like clicks and keypresses, to make things more dynamic...
-    $('#button').click(function (event) {
-      // say() is a function defined below
-      say("Oh No, What a shame, You lost your status and now you can never get it back");
-    });
+    // $('#button').click(function (event) {
+    //   // say() is a function defined below
+    //   say("Oh No, What a shame, You lost your status and now you can never get it back");
+    // });
 
 
 });
+
+//This checkbox section shows how no matter which they choose their status is lost
 
 function inputSelected () {
   if ($(this).is(':checked')) {
@@ -48,7 +51,7 @@ function inputSelected () {
       $('#button').show();
       $("#icon1").hide();
       $("#icon2").show();
-        // say("Oh No, What a shame, You lost your staus and now you can never get it back");
+       say("Oh No, What a shame, You lost your status and now you can never get it back");
     }
   }
   else {
@@ -61,10 +64,7 @@ function speechIsReady () {
   speechReady = true;
 }
 
-// say(text)
-//
-// Checks if speech is available and if it is, speaks the text given
-// with the parameters determined at the top of the script.
+
 function say (text) {
   if (speechReady) {
     responsiveVoice.speak(text,voice,voiceParameters);
