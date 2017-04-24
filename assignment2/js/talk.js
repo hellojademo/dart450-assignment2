@@ -6,20 +6,16 @@ $(document).ready(function() {
 
 $("#well").hide();
 $("#icon2").hide();
+$("#hint").hide();
 
 
   if (annyang) {
 
     var command = {
 
-      // We want to just pick up each individual word
-      // the user says, because we want to check if
-      // they said the right thing. Thus we call said()
-      // each time with the word they said as its argument.
 
-      // In annyang's commands writing a colon immediately
-      // followed by a variable name means it will call
-      // the function specified with that word in an argument
+      // code used here mostly derieved from Pippin's example with addtions.
+      //This section is to ensure the user says the right word in order to advance
       'tensei': tanisi,
       // '*everything': function (words) { console.log(words); },
 
@@ -42,6 +38,7 @@ $("#icon2").hide();
   $("#listen").click(function(){
 
     spokenVoice.play();
+    $("#hint").show();
 });
 
 $('body').click(function(){
@@ -74,7 +71,7 @@ function tanisi () {
       'background-color': 'green'
     });
 
-
+    $("#well").fadeTo(1000,1);  
 
   // else {
   //   // If they didn't say 'something', they got it wrong, make
@@ -86,7 +83,7 @@ function tanisi () {
 
   // For good measure, add what they said to the page
   $('#command').text('"Hello to you too!"');
-  $("#well").show();
-  $("#icon2").fadeTo(1500,1);
+  // $('#command').append("#well");
+  // $("#icon2").fadeTo(1500,1);
   gameOver = true;
 }
