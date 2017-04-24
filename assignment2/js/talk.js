@@ -73,8 +73,7 @@ function tanisi () {
     $('body').css({
       'background-color': 'green'
     });
-  $("#well").show();
-  $("#icon2").fadeTo(1500,1);
+
 
 
   // else {
@@ -87,6 +86,7 @@ function tanisi () {
 
   // For good measure, add what they said to the page
   $('#command').text('"Hello to you too!"');
-
+  $("#well").show();
+  $("#icon2").fadeTo(1500,1);
   gameOver = true;
 }
