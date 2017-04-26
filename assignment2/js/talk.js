@@ -67,29 +67,29 @@ $('body').click(function(){
 
 //THIS IS THE BIT I NEED TO FIX
 
-// function tanisi () {
-//   // First make sure the "game" isn't already over
-//   if (gameOver) {
-//     return;
-//   }
-//
-//     $('body').css({
-//       'background-color': 'green'
-//     });
-//
-//     $("#well").fadeTo(1000,1);
-//
-//   // else {
-//   //   // If they didn't say 'something', they got it wrong, make
-//   //   // the page red
-//   //   $('body').css({
-//   //     'background-color': 'red'
-//   //   })
-//   // }
-//
-//   // For good measure, add what they said to the page
-//   $('#command').text('"Hello to you too!"');
-//   // $('#command').append("#well");
-//   // $("#icon2").fadeTo(1500,1);
-//   gameOver = true;
-// }
+function tanisi () {
+  // First make sure the "game" isn't already over
+  if (gameOver) {
+    return;
+  }
+
+    $('body').css({
+      'background-color': 'green'
+    });
+
+    $("#well").fadeIn(1000);
+
+  // else {
+  //   // If they didn't say 'something', they got it wrong, make
+  //   // the page red
+  //   $('body').css({
+  //     'background-color': 'red'
+  //   })
+  // }
+
+  // For good measure, add what they said to the page
+  $('#command').text('"Hello to you too!"');
+  // $('#command').append("#well");
+  // $("#icon2").fadeTo(1500,1);
+  gameOver = true;
+}
