@@ -89,6 +89,7 @@ function tanisi () {
 
   // For good measure, add what they said to the page
   $('#command').text('"Hello to you too!"');
+  $('#success').text('"cool"');
   // $('#command').append("#well");
   // $("#icon2").fadeTo(1500,1);
   gameOver = true;
