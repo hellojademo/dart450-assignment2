@@ -78,9 +78,9 @@ function tanisi () {
     });
 
     $("#well").fadeIn(1000);
-    $("#icon1").hide();
+    $("#icon1").fadeOut(1000);
     $("#listen").hide();
-    $("#icon2").fadeTo(1500,1);
+    $("#icon2").fadeIn(1000);
   // else {
   //   // If they didn't say 'something', they got it wrong, make
   //   // the page red
@@ -91,7 +91,7 @@ function tanisi () {
 
   // For good measure, add what they said to the page
   // $('#command').text('"Hello to you too!"');
-  $('#success').text('"cool"');
+  // $('#success').text('"cool"');
   // $('#command').append("#well");
   // $("#icon2").fadeTo(1500,1);
   gameOver = true;
