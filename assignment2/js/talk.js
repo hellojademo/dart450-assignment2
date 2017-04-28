@@ -78,7 +78,7 @@ function tanisi () {
     // });
 
     $("#well").fadeIn(1000);
-    $("#icon1").fadeOut(1000);
+    $("#icon1").hide();
     $("#listen").hide();
     $("#icon2").fadeIn(1000);
   // else {
