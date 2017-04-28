@@ -42,7 +42,7 @@ $("#hint").hide();
 });
 
 $('body').click(function(){
-  $("#well").show();
+  // $("#well").show();
   $("#icon1").hide();
   $("#listen").hide();
   $("#icon2").fadeTo(1500,1);
