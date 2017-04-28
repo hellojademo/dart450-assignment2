@@ -43,9 +43,9 @@ $("#hint").hide();
 
 $('body').click(function(){
   // $("#well").show();
-  $("#icon1").hide();
-  $("#listen").hide();
-  $("#icon2").fadeTo(1500,1);
+  // $("#icon1").hide();
+  // $("#listen").hide();
+  // $("#icon2").fadeTo(1500,1);
 
 });
 
@@ -78,7 +78,9 @@ function tanisi () {
     });
 
     $("#well").fadeIn(1000);
-
+    $("#icon1").hide();
+    $("#listen").hide();
+    $("#icon2").fadeTo(1500,1);
   // else {
   //   // If they didn't say 'something', they got it wrong, make
   //   // the page red
