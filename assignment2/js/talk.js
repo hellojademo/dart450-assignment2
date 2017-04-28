@@ -41,13 +41,13 @@ $("#hint").hide();
     $("#hint").show();
 });
 
-$('body').click(function(){
-  // $("#well").show();
-  // $("#icon1").hide();
-  // $("#listen").hide();
-  // $("#icon2").fadeTo(1500,1);
-
-});
+// $('body').click(function(){
+//   // $("#well").show();
+//   // $("#icon1").hide();
+//   // $("#listen").hide();
+//   // $("#icon2").fadeTo(1500,1);
+//
+// });
 
 });
 
@@ -73,9 +73,9 @@ function tanisi () {
     return;
   }
 
-    $('body').css({
-      'background-color': 'green'
-    });
+    // $('body').css({
+    //   'background-color': 'green'
+    // });
 
     $("#well").fadeIn(1000);
     $("#icon1").fadeOut(1000);
