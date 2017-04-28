@@ -29,7 +29,7 @@ $(document).ready(function() {
   responsiveVoice.OnVoiceReady = speechIsReady;
 
   $("#icon2").mouseenter(function (event) {
-  say("Oh No, What a shame, You lost your staus and now you can never get it back");
+  say("Oh No, What a shame, You lost your status and now you can never get it back");
 });
 
     // We can have speech happen in reaction to different page

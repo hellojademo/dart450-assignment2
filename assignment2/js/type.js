@@ -11,7 +11,7 @@ $(document).ready(function(){
   $("#done").hide();
   $("#listen").fadeTo(2000,1);
   $("#icon2").hide();
-  $("#thank").fadeTo(3000,0);
+  $("#thank").fadeTo(4500,0);
 
 
 
